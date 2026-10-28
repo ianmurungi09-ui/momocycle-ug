@@ -1,0 +1,31 @@
+*{box-sizing:border-box}
+body{margin:0;font-family:Segoe UI,Arial,sans-serif;background:#f3f7f4;color:#1f2a24}
+.topbar{background:#1b6b3a;color:#fff;display:flex;flex-wrap:wrap;align-items:center;gap:12px;padding:10px 20px}
+.brand{font-weight:700;font-size:1.2rem}
+.topbar nav{display:flex;flex-wrap:wrap;gap:4px 14px;margin-left:auto}
+.topbar a{color:#e6f5ea;text-decoration:none;font-size:.92rem}
+.topbar a:hover{text-decoration:underline}
+.container{max-width:1050px;margin:24px auto;padding:0 16px}
+h1{font-size:1.5rem;margin:.2em 0 .6em}h2{font-size:1.15rem;margin:1.4em 0 .5em}
+.card{background:#fff;border-radius:10px;padding:18px;box-shadow:0 1px 4px rgba(0,0,0,.08);margin-bottom:18px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px}
+.stat{background:#fff;border-radius:10px;padding:16px;box-shadow:0 1px 4px rgba(0,0,0,.08)}
+.stat b{display:block;font-size:1.5rem;color:#1b6b3a}.stat span{font-size:.85rem;color:#556}
+table{width:100%;border-collapse:collapse;background:#fff;font-size:.93rem}
+th,td{padding:8px 10px;border-bottom:1px solid #e3e9e5;text-align:left}
+th{background:#e8f2ea}
+.tablewrap{overflow-x:auto;border-radius:10px;box-shadow:0 1px 4px rgba(0,0,0,.08)}
+form.stack{display:grid;gap:12px;max-width:460px}
+label{font-size:.88rem;font-weight:600;display:grid;gap:4px}
+input,select{padding:9px;border:1px solid #bcc9c0;border-radius:6px;font-size:1rem}
+button,.btn{background:#1b6b3a;color:#fff;border:0;padding:9px 16px;border-radius:6px;cursor:pointer;font-size:.95rem;text-decoration:none;display:inline-block}
+button.danger{background:#b3261e}button.small{padding:5px 10px;font-size:.85rem}
+.alert{padding:11px 14px;border-radius:8px;margin-bottom:16px}
+.alert.ok{background:#dff3e4;color:#14532d}.alert.err{background:#fde2e0;color:#7f1d1d}
+.badge{padding:2px 8px;border-radius:10px;font-size:.78rem;background:#e0e7e2}
+.badge.PAID{background:#c9ecd3}.badge.HUB_VERIFIED{background:#fff1c2}.badge.REJECTED{background:#fbd0cc}
+.muted{color:#667;font-size:.85rem}
+.footer{text-align:center;color:#778;padding:20px;font-size:.82rem}
+.phone{max-width:320px;margin:auto;background:#111;color:#8bff9e;font-family:Consolas,monospace;padding:16px;border-radius:18px}
+.phone .screen{white-space:pre-wrap;min-height:170px;background:#0b1f10;padding:10px;border-radius:8px;margin-bottom:10px}
+.inline{display:inline}
